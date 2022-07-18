@@ -1,0 +1,102 @@
+<xml>
+	<category name="%{BKY_LT_CATEGORY_EVENTS}" colour="%{BKY_LT_CATEGORY_COLOUR_EVENTS}">
+		<block type="simple_event_on_device"></block>
+		<block type="event_timer"></block>
+		<block type="event_on_device"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_NOTIFICATION}" colour="%{BKY_LT_CATEGORY_COLOUR_NOTIFICATION}">
+		<block type="notification_push"></block>
+		<block type="notification_log_error"></block>
+		<block type="notification_textbox"></block>
+		<block type="messenger_control"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_DATETIME}" colour="%{BKY_LT_CATEGORY_COLOUR_DATETIME}">
+		<block type="datetime_time_in_range_day"></block>
+		<block type="datetime_get"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_CONTROL}" colour="%{BKY_LT_CATEGORY_COLOUR_CONTROL}">
+		<block type="status_set_on_off"></block>
+		<block type="blinds_control"></block>
+		<block type="dimer_control"></block>
+		<block type="rgb_control"></block>
+		<block type="mediapoint_control"></block>
+		<block type="mediapoint_uuid_control"></block>
+		<block type="ir_sender"></block>
+		<block type="string_sender"></block>
+		<block type="sonos"></block>
+		<block type="heating_control"></block>
+		<block type="fancoil_control"></block>
+		<block type="climate_control"></block>
+		<block type="conditioner_control"></block>
+		<block type="vent_control"></block>
+		<block type="ventilation_control"></block>
+		<block type="set_state_on_exe"></block>
+		<block type="sensor_leak_sensor_reset"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_LOGIC}" colour="%{BKY_LT_CATEGORY_COLOUR_LOGIC}">
+		<block type="controls_if"></block>
+		<block type="logic_boolean"></block>
+		<block type="logic_compare"></block>
+		<block type="logic_operation"></block>
+		<block type="math_arithmetic"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_STATUS}" colour="%{BKY_LT_CATEGORY_COLOUR_STATUS}">
+		<block type="getbyte_control"></block>
+		<block type="getbyte_self"></block>
+		<block type="status_opt"></block>
+		<block type="get_device_status"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_AUTOMATION}" colour="%{BKY_LT_CATEGORY_COLOUR_AUTOMATION}">
+		<block type="automation_turns_on"></block>
+		<block type="automation_is_auto_on"></block>
+		<block type="automation_is_defined"></block>
+		<block type="webhook"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_TEXT}" colour="%{BKY_LT_CATEGORY_COLOUR_TEXT}">
+		<block type="text_compare"></block>
+		<block type="sprintf"></block>
+		<block type="convert_number_to_text"></block>
+		<block type="convert_text_to_number"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_VARIABLES}" colour="%{BKY_LT_CATEGORY_COLOUR_VARIABLES}">
+		<block type="varieble_numb"></block>
+		<block type="varieble_array"></block>
+		<block type="varieble_text"></block>
+		<block type="variebles_getter"></block>
+		<block type="variebles_setter"></block>
+		<block type="type_text"></block>
+		<block type="type_number"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_FUNCTIONS}" colour="%{BKY_LT_CATEGORY_COLOUR_FUNCTIONS}">
+		<block type="functions"></block>
+		<block type="functions_on_init"></block>
+		<block type="functions_call"></block>
+		<block type="functions_delay"></block>
+		<block type="functions_cancel_delay"></block>
+		<block type="delayed_function"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_LOOP}" colour="%{BKY_LT_CATEGORY_COLOUR_LOOP}">
+		<block type="loop"></block>
+	</category>
+	<category name="%{BKY_LT_CATEGORY_OTHER}" colour="%{BKY_LT_CATEGORY_COLOUR_OTHER}">
+		<block type="type_coment"></block>
+		<block type="weather"></block>
+		<block type="climate_get"></block>
+		<block type="modbus"></block>
+		<block type="modbus_take"></block>
+		<block type="modbus_take_get"></block>
+		<block type="flash_read"></block>
+		<block type="flash_read_return"></block>
+		<block type="flash_write"></block>
+		<block type="csv_google_sprdsht_controller"></block>
+	</category>
+	<category name="%{BKY_LT_TEAMPLATES}" colour="%{BKY_LT_CATEGORY_COLOUR_TEAMPLATES}">
+		<block type="univarsal_modbus"></block>
+		<!-- <block type="security_control"></block> -->
+		<block type="imitation"></block>
+		<block type="moving_music"></block>
+		<block type="save_device_state"></block>
+		<block type="related_actions"></block>
+	</category>
+</xml>
+

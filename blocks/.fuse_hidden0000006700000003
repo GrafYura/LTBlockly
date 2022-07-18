@@ -1,0 +1,50 @@
+// function createBlocks() {
+//     console.log("run");
+//     var workspace = Blockly.getMainWorkspace();
+//     console.log(workspace);
+//     //var block = workspace.newBlock('automation_is_auto_on');
+//     var block = new Blockly.Block(workspace, 'automation_is_auto_on');
+//     console.log(block);
+//     // try {
+//     //     workspace.render();
+//     // } catch (error) {
+//     //     console.log(error);
+//     // }
+
+//     console.log("rendered");
+// }
+
+Blockly.Blocks['new_block_creator'] = {
+    init: function () {
+        this.appendDummyInput('qwe')
+            .appendField("qweasd");
+        //createBlocks();
+    }
+};
+
+Blockly.JavaScript['new_block_creator'] = function (block) {
+    // Search the text for a substring.
+    var code = {
+        before: "",
+        gencode: "",
+        after: "",
+        global: ""
+    };
+
+    return JSON.stringify(code);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
